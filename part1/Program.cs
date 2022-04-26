@@ -1,6 +1,8 @@
 ﻿Console.Write("введите число: ");
-String int a = Console.ReadLine ();
+string userString = Console.ReadLine();
+int intValue = Convert.ToInt32(userString);
+int a = intValue;
 int result = a*a;
 Console.Write("квадрат числа равен: ");
-COnsoleWriteLine (result);
+Console.WriteLine (result);
 

@@ -1,9 +1,6 @@
-﻿Console.Write("введите число a: ");
-string userString = Console.ReadLine();
-int a = Convert.ToInt32(userString);
-Console.Write("введите число b: ");
-string userString = Console.ReadLine();
-int b = Convert.ToInt32(userString);
+﻿Console.WriteLine("введите два числа: ");
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
 
 if (a>b)
 {
